@@ -5,10 +5,7 @@ name: CI
 # Controls when the workflow will run
 on:
   schedule:
-      - cron: '13 16 * * 3'
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+      - cron: '18 16 * * 3'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:

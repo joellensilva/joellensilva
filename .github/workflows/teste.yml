@@ -6,7 +6,7 @@ name: teste
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   workflow_run:
-    workflows: ["CI"]
+    workflows: ["CI","C2"]
     types: [completed]
     branches:
       - 'main'
